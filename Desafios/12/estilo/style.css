@@ -1,5 +1,15 @@
 @charset "UTF8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+:root{
+--fonte1:Verdana, Geneva, Tahoma, sans-serif;
+--fonte2:"Sriracha",cursive ;
+  
+}
+
 *{
+
   margin:0px;
   padding:0px;
 }
@@ -7,6 +17,7 @@
 html body{
   min-height:100vh;
   background-color: darkgray;
+  font-family: var(--fonte2);
 }
 header{
   background-color: black;
@@ -51,10 +62,16 @@ section.imagen >p{
   background-color: rgba(0, 0, 0, 0.192);
   width: 400px;
 }
+section.img01{
+  background-image: url(../imagens/background001.jpg);
+}
 
+section.img02{
+  background-image: url(../imagens/background002.jpg);
+}
 footer{
   color: white;
-  background-color: rgba(0, 0, 0, 0.192);
+  background-color: rgba(0, 0, 0, 0.959);
   text-align: center;
   padding: 10px;
 }
