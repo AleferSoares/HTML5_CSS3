@@ -10,36 +10,45 @@ body{
 }
 table{
     border-collapse: collapse;
+    
 }
-th,tr {
+th,tr,td {
     border: 1px solid black;
+}
+caption{
+    font-size: 1.3em;
+    font-weight: bolder;
+    padding: 10px;
 }
     </style>
 </head>
 <body>
     <h1>Exercicios De Tabelas</h1>
-    <table>
-        <caption>filmes favoritos</caption>
-       <thead>
-          <tr>
-             <th>Grupo</th>
-             <th>Nome</th>
-             <th>Filmes</th>
-          </tr>
-      </thead>
-      <tr>
-        <th>Mulheres</th>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <th>Homens</th>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>   
-   
-   </table>
+     <table>
+     <caption>filmes favoritos</caption>
+         <thead>
+            <tr>
+              <th>Grupo</th>
+              <th>Nome</th>
+              <th colspan="3">Filmes</th>
+            </tr>
+            <tr>
+               <th>Mulheres</th>
+               <td>Ana Beatriz</td>
+               <td>Capitao America</td>
+               <td>Vingadores</td>
+               <td>Homem de Ferro</td>
+            </tr>
+            <tr>
+                <td>Joice</td>
+                <td>O Macaco</td>
+                <td>Jogos Mortais</td>
+                <td>Ilha Maldita</td>                
+            </tr>
+
+         </thead>
+        <tbody>   
+     </tbody>
+     </table>
 </body>
 </html>
